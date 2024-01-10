@@ -1,7 +1,8 @@
-import { ThemeProvider } from "styled-components";
-import { theme } from "./theme";
-import React from "react";
-import { GlobalStyles } from "./global-styles";
+import { ThemeProvider } from 'styled-components';
+import { theme } from './theme';
+import P from 'prop-types';
+import React from 'react';
+import { GlobalStyles } from './global-styles';
 
 export default function MyThemeProvider({ children }) {
   return (
@@ -12,6 +13,6 @@ export default function MyThemeProvider({ children }) {
   );
 }
 
-// MyThemeProvider.propTypes = {
-//   children: P.node.isRequired,
-// };
+MyThemeProvider.propTypes = {
+  children: P.node.isRequired,
+};
