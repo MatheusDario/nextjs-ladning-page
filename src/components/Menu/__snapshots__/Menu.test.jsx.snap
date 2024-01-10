@@ -5,6 +5,7 @@ exports[`<Menu /> should not render links 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c7 {
@@ -67,10 +68,11 @@ exports[`<Menu /> should not render links 1`] = `
   align-items: center;
   text-decoration: none;
   color: inherit;
+  font-size: 3rem;
 }
 
 .c8 >img {
-  max-height: 2.5rem;
+  height: 6rem;
 }
 
 .c9 {
@@ -195,6 +197,7 @@ exports[`<Menu /> should render logo and main nav menu 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c7 {
@@ -257,10 +260,11 @@ exports[`<Menu /> should render logo and main nav menu 1`] = `
   align-items: center;
   text-decoration: none;
   color: inherit;
+  font-size: 3rem;
 }
 
 .c8 >img {
-  max-height: 2.5rem;
+  height: 6rem;
 }
 
 .c9 {

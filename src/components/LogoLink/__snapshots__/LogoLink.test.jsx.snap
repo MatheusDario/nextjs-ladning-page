@@ -6,10 +6,11 @@ exports[`<LogoLink /> should match a snapshot 1`] = `
   align-items: center;
   text-decoration: none;
   color: inherit;
+  font-size: 3rem;
 }
 
 .c1 >img {
-  max-height: 2.5rem;
+  height: 6rem;
 }
 
 .c0 {

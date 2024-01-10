@@ -9,6 +9,7 @@ exports[`<Base /> should render 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c7 {
@@ -95,10 +96,11 @@ exports[`<Base /> should render 1`] = `
   align-items: center;
   text-decoration: none;
   color: inherit;
+  font-size: 3rem;
 }
 
 .c8 >img {
-  max-height: 2.5rem;
+  height: 6rem;
 }
 
 .c9 {
@@ -180,7 +182,7 @@ exports[`<Base /> should render 1`] = `
 .c17 {
   counter-reset: grid-counter;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
   gap: 3.2rem;
   overflow: hidden;
   width: 100%;
@@ -437,6 +439,7 @@ exports[`<Base /> should render 1`] = `
   >
     <div
       class="c12"
+      id="id-161-5574881398829"
     >
       <div
         class="c3 c4"
@@ -514,6 +517,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c20"
+      id="id-7330-55980448704"
     >
       <div
         class="c3 c4"
@@ -591,6 +595,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c12"
+      id="id-2986-2713253859097"
     >
       <div
         class="c3 c4"
@@ -668,6 +673,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c20"
+      id="id-5669-342758951381"
     >
       <div
         class="c3 c4"
@@ -745,6 +751,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c12"
+      id="id-2333-209397816944"
     >
       <div
         class="c3 c4"
@@ -822,6 +829,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c20"
+      id="id-4412-01788567454"
     >
       <div
         class="c3 c4"

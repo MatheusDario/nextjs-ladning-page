@@ -8,6 +8,10 @@
 
 # testing
 /coverage
+.storybook
+dist
+dist-ssr
+*.local
 
 # next.js
 /.next/
@@ -34,3 +38,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+codealike.json

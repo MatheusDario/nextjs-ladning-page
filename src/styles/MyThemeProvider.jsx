@@ -4,14 +4,14 @@ import P from 'prop-types';
 import React from 'react';
 import { GlobalStyles } from './global-styles';
 
-export default function MyThemeProvider({ children }) {
+export const MyThemeProvider = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       {children}
       <GlobalStyles />
     </ThemeProvider>
   );
-}
+};
 
 MyThemeProvider.propTypes = {
   children: P.node.isRequired,
