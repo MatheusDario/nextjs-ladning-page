@@ -1,4 +1,5 @@
-import MyThemeProvider from "../styles/MyThemeProvider";
+import { AppProps } from 'next/app';
+import MyThemeProvider from '../styles/MyThemeProvider';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,3 +10,5 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
+MyApp.propTypes = AppProps;
