@@ -1,5 +1,4 @@
 import { loadPages } from '@/api/load-pages';
-import config from '@/config';
 import { App } from '@/templates/App';
 import P from 'prop-types';
 
@@ -12,26 +11,21 @@ Page.propTypes = {
 };
 
 export const getStaticPaths = async () => {
-  const url = config.url;
-  const raw = await fetch(url);
-  const json = await raw.json();
-  const data = json.data;
+  // const url = config.url;
+  // const raw = await fetch(url);
+  // const json = await raw.json();
+  // const data = json.data;
 
-  const mySlug = data.map((page) => {
-    const {
-      attributes: { slug },
-    } = page;
+  // const mySlug = data.map((page) => {
+  //   const {
+  //     attributes: { slug },
+  //   } = page;
 
-    return { slug };
-  });
+  //   return { slug };
+  // });
 
-  console.log(mySlug[0].slug);
   return {
-    paths: [
-      {
-        params: { slug: mySlug[0].slug },
-      },
-    ],
+    paths: [{ params: { slug: 'info-produto' } }],
     fallback: false,
   };
 };
